@@ -1,0 +1,48 @@
+.presentation_container{
+    width: 342px;
+    height: 300px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    border: 2px solid white;
+    align-items: flex-start;
+}
+
+.name_container{
+    border: 2px solid white;
+}
+
+.hello_container{
+    
+}
+
+.hello_container .hi{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.profession{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #2CB67D;
+    margin: 0;
+}
