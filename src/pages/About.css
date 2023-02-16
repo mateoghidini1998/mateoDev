@@ -27,6 +27,9 @@
 .about .content .col-left{
     position:relative;
     width:45%;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .about .content .col-right{
@@ -60,4 +63,84 @@
 .about .content .col-right .paragraph-text{
     font-size: 1em;
     color: white;
+}
+
+.box{
+    flex: 1;
+    color: white;
+    margin: 5px;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.skills ul li {
+    border: 1px solid #08fdd8;
+    margin: 5px;
+    
+}
+
+.skills ul li:hover{
+    background-color: #08fdd8;
+    color: black;
+}
+
+.tecnologies ul li {
+    border: 1px solid #FD2155;
+    margin: 5px;
+}
+
+.tecnologies ul li:hover{
+    background-color: #FD2155;
+    color: black;
+}
+
+.tools ul li {
+    border: 1px solid #ffa500;
+    margin: 5px;
+}
+
+.tools ul li:hover{
+    background-color: #ffa500;
+    color: black;
+}
+
+.skills span,
+.tecnologies span,
+.tools span{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.skills span{
+    color: #08fdd8;
+}
+
+.tecnologies span{
+    color: #FD2155;
+}
+
+.tools span{
+    color: #ffa500;
+}
+
+@media only screen and (max-width: 767px){
+    #header{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .about .content{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .about .content .col-left{
+        width:100%;
+    }
+
+    .about .content .col-right{
+        width:100%;
+    }
 }

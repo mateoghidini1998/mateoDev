@@ -1,6 +1,6 @@
 import React from 'react'
 import './Work.css'
-import Button from '../atoms/Button'
+import Cta from '../atoms/Cta'
 import Headphone from '../assets/images/headphones3.png'
 import Calendar from '../assets/images/calendar.png'
 import DevConnector from '../assets/images/dev.png'
@@ -25,7 +25,7 @@ const Work = () => {
                     </p>
                 </div>
                 <div className='btn-container'>
-                    <Button className="btn" content="See More"/>
+                    <Cta className="btn" link="https://github.com/mateoghidini1998" content="See More"/>
                 </div>
             </div>
             <div className="fake-big-2">Work</div>
