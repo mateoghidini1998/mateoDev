@@ -23,8 +23,39 @@ const About = () => {
                 </p>
             </div>
             <div className="column col-left reveal">
-                <div className="img-card">
-                    
+                <div className="box skills">
+                    <span>Skills</span>
+                    <ul>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>Css</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div className="box tecnologies">
+                    <span>Tecnologies</span>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>ReactJs</li>
+                        <li>React Native</li>
+                        <li>NodeJs</li>
+                        <li>NextJs</li>
+                        <li>Express js</li>
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+                <div className="box tools">
+                    <span>Tools</span>
+                    <ul>
+                        <li>Jira</li>
+                        <li>BitBucket</li>
+                        <li>SourceTree</li>
+                        <li>Github</li>
+                        <li>Trello</li>
+                    </ul>
                 </div>
             </div>
 

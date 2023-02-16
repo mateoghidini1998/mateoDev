@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from '../organisms/Heading'
 import Button from '../atoms/Button'
 import './Main.css'
+
 
 const Main = () => {
   return (
