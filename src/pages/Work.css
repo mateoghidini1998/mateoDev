@@ -1,93 +1,118 @@
-#section-work{
+#section-work {
     padding: 5rem 0 5rem 1.5rem;
     position: relative;
-}
-
-#header{
+  }
+  
+  #header {
     font-size: 2rem;
     color: #08fdd8;
     margin-bottom: 30px;
     display: flex;
     width: 50%;
     justify-content: center;
-}
-
-.text-zone-2{
+  }
+  
+  .text-zone-2 {
     display: flex;
     align-items: flex-end;
-}
-
-.text-zone-2 p{
+  }
+  
+  .text-zone-2 p {
     line-height: 1.5;
     color: white;
     display: flex;
-}
-
-.text-zone-2 div{
+  }
+  
+  .text-zone-2 div {
     width: 50%;
-}
-
-.text-zone-2 .btn-container{
+  }
+  
+  .text-zone-2 .btn-container {
     height: 72px;
     padding: 4px;
-}
-
-.fake-big-2,
-.fake-big-3{
+  }
+  
+  .fake-big-2,
+  .fake-big-3 {
     font-size: 18rem;
     font-weight: 700;
     position: absolute;
-    color: #2D2D2E;
+    color: #2d2d2e;
     left: 10px;
     bottom: -70px;
     letter-spacing: -10px;
     z-index: -999;
-}
-
-.fake-big-2{
+  }
+  
+  .fake-big-2 {
     right: -60%;
-}
-
-.fake-magicwall{
+  }
+  
+  .fake-magicwall {
     background-color: rgba(255, 255, 255, 0.1);
-}
-
-.fake-magicwall ul{
+    position: relative;
+  }
+  
+  .fake-magicwall ul {
     list-style: none;
     display: flex;
-    display:  -ms-flexbox;
+    display: -ms-flexbox;
     display: -webkit-box;
     flex-wrap: wrap;
-}
-
-.fake-magicwall ul li{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fake-magicwall ul li {
     width: 50%;
     height: 550px;
     position: relative;
     overflow: hidden;
     display: list-item;
-}
-
-.fake-magicwall ul li:hover .magic-wall_item{
+  }
+  
+  .fake-magicwall ul li:hover .magic-wall_item {
     transform: scale(1.14);
-}
-
-.magic-wall_item{
+  }
+  
+  .magic-wall_item {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    transition: transform .5s opacity .5s;
-    transition: transform .5s opacity .5s, -webkit-transform .5s;
-}
-
-.fake-magicwall img{
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  
+  .fake-magicwall img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
-}
-
-
-
+  }
+  
+  @media only screen and (max-width: 810px) {
+    .fake-magicwall ul {
+      overflow: hidden;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+    }
+  
+    #home-magicwall {
+      width: 100%;
+      overflow-x: auto;
+      position: relative;
+    }
+  
+    .fake-magicwall ul li {
+      width: 100%;
+      flex-shrink: 0;
+    }
+  
+    .dot {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin: 10px;
+    }
+  }
+  

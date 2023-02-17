@@ -1,8 +1,11 @@
 import React from 'react'
 import './Navbar.css'
-import Button from '../atoms/Button'
+import useResponsiveNav from '../hooks/useResponsiveNav'
 
 const Navbar = () => {
+
+  useResponsiveNav();
+
   return (
     <div className='navbar_container'>
         <header>

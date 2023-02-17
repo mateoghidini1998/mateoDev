@@ -18,13 +18,14 @@ section
 .main{
     position:relative;
     width:100%;
-    min-height:100vh;
+    min-height:90vh;
     display:flex;
     align-items:center;
     background-color:#1D1D1D;
     background-size: cover;
     position:center;
     background-attachment: fixed;
+    justify-content: center;
 }
 
 .main .content{
@@ -136,7 +137,7 @@ section
 
 
 .media-icons{
-    margin-top:50px;
+    margin-top:30px;
 }
 
 .media-icons a{
@@ -209,65 +210,7 @@ body{
 
 
 
-@media (max-width:375px) {
-    .animated-text h3{
-        font-size:0.5em;
-    }
 
-    .menu-btn{
-        margin-right: 4px;
-    }
-
-    .about .content .col-right {
-        
-        width: 100%;
-    }
-
-    .about .content .col-left{
-        position:relative;
-        width: 100%;
-    }
-
-    .about .content .col-right .paragraph-text {
-        font-size: 0.8em;
-    }
-
-    .skills .content .col-left p{
-        font-size: 0.8em;
-    }  
-
-    .skills .content .col-right .bar .info {
-        font-size: 11px;
-        
-    }
-
-    .skills .content .content-title{
-        position: relative;
-        width: 100%;
-    }
-
-    .contact .content .row .card{
-        margin-bottom: 15px;
-
-    }
-
-    .contact .content .row .card .contact-icon {
-        font-size: 2em;
-    }
-
-    .about .content .col-left .img-card img {
-        object-fit: contain;
-    }
-
-    .about .content .col-right {
-        margin-top: -160px;
-    }
-
-    .about .content .col-left .img-card img {
-        top:-50px;
-    }
-        
-}
 
 @media (max-width:414px){
     .contact .content .row .card{
@@ -283,7 +226,23 @@ body{
     }
 }
 
+@media (max-width: 1140px){
+    .main{
+        padding: 100px 150px;
+    }
+}
+
+
 @media (max-width: 1040px){
+
+    h2{
+        font-size: 0.8em !important;
+    }
+
+    .animated-text{
+        font-size: 0.6em !important;
+    }
+
     header{
         padding: 12px 20px;
     }
@@ -317,7 +276,7 @@ body{
 
 
     header .navigation a{
-        color:#000;
+        color:#000 !important;
         font-size: 1.2em;
         margin: 10px;
         padding: 0 20px;
@@ -325,7 +284,7 @@ body{
     }
 
     header .navigation a:hover{
-        background:#3a6cf4;
+        background:#08fdd8;
         color: #fff;
         transition: 0.3s ease;
     }
@@ -426,7 +385,7 @@ body{
         pointer-events: auto;
     }
 
-    .reveal {
+    /* .reveal {
         position: relative;
         transform: translateY(50px);
         opacity:0;
@@ -436,9 +395,19 @@ body{
     .reveal.active{
         transform: translateY(0);
         opacity:1;
-    }
+    } */
 }
 
+
+@media (max-width: 670px){
+    .main{
+        padding: 0;
+    }
+
+    h2{
+        font-size: 0.6em !important;
+    }
+}
 
 
 

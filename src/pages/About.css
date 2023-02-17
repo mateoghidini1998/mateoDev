@@ -53,6 +53,10 @@
     border-radius: 10px;
 }
 
+#about #header{
+    margin: 0 auto ;
+}
+
 .about .content .col-right .content-title{
     font-size:2em;
     font-weight:800;
@@ -125,22 +129,106 @@
     color: #ffa500;
 }
 
-@media only screen and (max-width: 767px){
-    #header{
-        font-size: 1.5rem;
+@media only screen and (max-width: 810px) {
+    #header {
+      font-size: 1.5rem;
+      width: 100%;
+    }
+  
+    .about .content {
+      flex-direction: column;
+      margin-top: 50px;
+      flex-direction: column;
+    }
+  
+    .about .content .col-left {
+      width: 100%;
+    }
+  
+    .about .content .col-right {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+  
+    .fake-big-3{
+        bottom: 130px !important;
+    }
+
+    .box {
+      width: 100%;
+    }
+  
+    .skills,
+    .tecnologies,
+    .tools {
+      margin-bottom: 30px;
+    }
+  
+    .skills ul li,
+    .tecnologies ul li,
+    .tools ul li {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  @media (max-width:375px) {
+    .animated-text h3{
+        font-size:0.5em;
+    }
+
+    .menu-btn{
+        margin-right: 4px;
+    }
+
+    .about .content .col-right {
+        
         width: 100%;
     }
 
-    .about .content{
-        flex-direction: column;
-        margin-top: 50px;
-    }
-
     .about .content .col-left{
-        width:100%;
+        position:relative;
+        width: 100%;
     }
 
-    .about .content .col-right{
-        width:100%;
+    .about .content .col-right .paragraph-text {
+        font-size: 0.8em;
     }
+
+    .skills .content .col-left p{
+        font-size: 0.8em;
+    }  
+
+    .skills .content .col-right .bar .info {
+        font-size: 11px;
+        
+    }
+
+    .skills .content .content-title{
+        position: relative;
+        width: 100%;
+    }
+
+    .contact .content .row .card{
+        margin-bottom: 15px;
+
+    }
+
+    .contact .content .row .card .contact-icon {
+        font-size: 2em;
+    }
+
+    .about .content .col-left .img-card img {
+        object-fit: contain;
+    }
+
+    .about .content .col-right {
+        margin-top: -160px;
+    }
+
+    .about .content .col-left .img-card img {
+        top:-50px;
+    }
+        
 }

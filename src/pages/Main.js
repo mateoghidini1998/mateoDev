@@ -1,7 +1,7 @@
 import React from 'react'
 import Cta from '../atoms/Cta'
 import './Main.css'
-
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -30,8 +30,8 @@ const Main = () => {
             </div>
             <Cta className="btn" content="See My Work"/>
             <div className="media-icons">
-                <a href="https://www.linkedin.com/in/mghidini/"><i className="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/mateoghidini1998"><i className="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mghidini/"><FaLinkedin/></a>
+                <a href="https://github.com/mateoghidini1998"><FaGithub/></a>
             </div>
         </div>
     </section>
