@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../atoms/Button'
+import Cta from '../atoms/Cta'
 import './Main.css'
 
 
@@ -28,7 +28,7 @@ const Main = () => {
                 <h3>Web Designer</h3>
                 <h3>Jr Advance Software Engineer</h3>
             </div>
-            <Button className="btn" content="See My Work"/>
+            <Cta className="btn" content="See My Work"/>
             <div className="media-icons">
                 <a href="https://www.linkedin.com/in/mghidini/"><i className="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/mateoghidini1998"><i className="fab fa-github"></i></a>
