@@ -1,0 +1,15 @@
+.section-title h2{
+   font-size: 2rem;
+   color: #08fdd8; 
+}
+
+.info-container{
+    
+    background-color: black;
+}
+
+
+.info-container p{
+    color: white;
+    font-size: 1rem;
+}

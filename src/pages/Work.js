@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Work.css'
+import './Main.css'
 import Cta from '../atoms/Cta'
 import Headphone from '../assets/images/headphones3.png'
 import Calendar from '../assets/images/calendar.png'
@@ -57,8 +58,17 @@ const Work = () => {
     return (
       <div className="main-container">
         <section id="work">
-          <div id="header">
-            <h2>My Work</h2>
+          <div className='header' id="header">
+            <h2>
+              <span className='bounce'>M</span>
+              <span className='bounce'>Y</span>
+              &nbsp;
+              <span className='bounce'>W</span>
+              <span className='bounce'>O</span>
+              <span className='bounce'>R</span>
+              <span className='bounce'>K</span>
+              <span className='bounce'></span>
+            </h2>
           </div>
           <div className="text-zone-2">
             <div>
@@ -73,7 +83,9 @@ const Work = () => {
               <Cta className="btn" link="https://github.com/mateoghidini1998" content="See More" />
             </div>
           </div>
-          <div className="fake-big-2">Work</div>
+          <div className="fake-big-2">
+            Work
+          </div>
         </section>
         {showDots && (
           <div className="dots">

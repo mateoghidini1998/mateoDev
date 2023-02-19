@@ -3,6 +3,7 @@ import Main from './pages/Main';
 import Navbar from './organisms/Navbar';
 import About from './pages/About';
 import Work from './pages/Work';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main/>
       <About/>
       <Work/>
+      <Contact/>
     </div>
   );
 }

@@ -36,12 +36,14 @@ section
 
 }
 
+.work .header h2,
 .main .content h2{
  color:#FFF;
  font-size:2em;
  font-weight:500;   
 }
 
+.work .header h2 span,
 .main .content h2 span{
     font-size:2.8em;
     font-weight:600;
@@ -50,6 +52,7 @@ section
    
 }
 
+.work .header h2 span:hover,
 .main .content h2 span:hover{
     color: #08fdd8;
     animation: bounce 1s;
