@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Work.css'
-import './Main.css'
 import Cta from '../atoms/Cta'
 import Headphone from '../assets/images/headphones3.png'
 import Calendar from '../assets/images/calendar.png'
@@ -37,38 +36,29 @@ const Work = () => {
       
         const targetCard = document.querySelector(`[data-id="${index}"]`);
         console.log("Target card:", targetCard);
-      
+
         if (targetCard) {
-          const magicWall = document.getElementById('home-magicwall');
-          console.log("Magic wall:", magicWall);
-          console.log("Target card offsetLeft:", targetCard.offsetLeft);
-          console.log("Magic wall offsetLeft:", magicWall.offsetLeft);
+          const magicWall = document.querySelector('#home-magicwall ul');
+          const magicWallRect = magicWall.getBoundingClientRect();
+          const targetCardRect = targetCard.getBoundingClientRect();
+          /* const magicWallOffsetLeft = magicWallRect.left + window.scrollX; */
+         
       
           magicWall.scroll({
-            left: targetCard.offsetLeft - magicWall.offsetLeft,
+            left: targetCardRect.left - magicWallRect.left/2 + magicWall.scrollLeft,
             behavior: 'smooth'
           });
-          console.log(magicWall.scroll)
         }
 
       }
   
-    
+      const dotColors = [ "#08fdd8", "#da007a", "#f6c544", "#0e9fb7", "#000000", "#a892ee" ]
 
     return (
       <div className="main-container">
         <section id="work">
-          <div className='header' id="header">
-            <h2>
-              <span className='bounce'>M</span>
-              <span className='bounce'>Y</span>
-              &nbsp;
-              <span className='bounce'>W</span>
-              <span className='bounce'>O</span>
-              <span className='bounce'>R</span>
-              <span className='bounce'>K</span>
-              <span className='bounce'></span>
-            </h2>
+          <div id="header">
+            <h2>My Work</h2>
           </div>
           <div className="text-zone-2">
             <div>
@@ -83,9 +73,7 @@ const Work = () => {
               <Cta className="btn" link="https://github.com/mateoghidini1998" content="See More" />
             </div>
           </div>
-          <div className="fake-big-2">
-            Work
-          </div>
+          <div className="fake-big-2">Work</div>
         </section>
         {showDots && (
           <div className="dots">
@@ -94,6 +82,7 @@ const Work = () => {
                 key={index}
                 className={`dot ${index === activeIndex ? 'active' : ''}`}
                 onClick={() => handleDotClick(index)}
+                style={{ backgroundColor: dotColors[index] }}
               ></button>
             ))}
           </div>

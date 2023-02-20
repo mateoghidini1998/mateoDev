@@ -36,6 +36,10 @@ section
 
 }
 
+.media-icons a:hover{
+    color: #08fdd8;
+}
+
 .work .header h2,
 .main .content h2{
  color:#FFF;

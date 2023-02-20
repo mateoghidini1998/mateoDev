@@ -1,20 +1,43 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
-import { FaPhone } from 'react-icons/fa'
+import emailjs from '@emailjs/browser';
 import { FiMail, FiPhone } from 'react-icons/fi'
+import { MdLocationPin } from 'react-icons/md'
+import ContactCard from '../molecules/ContactCard';
+import ContactTitle from '../molecules/ContactTitle';
+import Form from '../organisms/Form';
+import Section from './Section';
 function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_a0bn1ms', 'template_6fehwfa', form.current, 'YiYX3sMzC5_i4CTmq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className='main-container'>
-        <section id='contact'>
-            <div className='section-title'>
-                <h2>Contact</h2>
+        <Section className="contact reveal" id="contact">
+        <ContactTitle title="Contact Me" />
+        <div className="content">
+            <div className="row">
+              <ContactCard title="Address" content="Tigre, Buenos Aires, Argentina" icon={<MdLocationPin/>}/>
+              <ContactCard title="Phone" content="+5491136176018" icon={<FiPhone/>}/>
+              <ContactCard title="Email Address" content="ghidinimateo1@gmail.com" icon={<FiMail/>}/>
             </div>
-            <div className='info-container'>
-                <p><FaPhone/>ghidinimateo1@gmail.com</p>
-                <p><FiMail/>https://www.linkedin.com/in/mghidini/</p>
-                <p><FiPhone/>+5491136176018</p>
+            <div className="row">
+                <Form ref={form} onSubmit={sendEmail} />
             </div>
-        </section>
+        </div>
+
+    </Section>
     </div>
   )
 }

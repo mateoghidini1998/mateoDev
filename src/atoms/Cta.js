@@ -3,7 +3,7 @@ import './Cta.css'
 
 function Cta(props) {
   return (
-    <a className='btn' href={props.link}>{props.content}</a>
+    <a className={props.className} href={props.link}>{props.content}</a>
   )
 }
 

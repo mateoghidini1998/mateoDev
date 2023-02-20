@@ -1,15 +1,13 @@
 import React from 'react'
 import './About.css'
+import Section from './Section'
+import AboutSectionTitle from '../molecules/AboutSectionTitle'
 
 const About = () => {
   return (
     <div className='main-container'>
-        <section className="about" id="about">
-        <div id="header">
-            <h2 className="section-title ">
-                About me
-            </h2>
-        </div>
+        <Section className="about" id="about">
+        <AboutSectionTitle/>
         <div className="content">
             <div className="column col-right reveal">
                 <h2 className="content-title">Hey there! I´m Mateo Ghidini</h2>
@@ -61,7 +59,7 @@ const About = () => {
 
             <div className="fake-big-3">Blog</div>
         </div>
-    </section>
+    </Section>
     </div>
   )
 }
