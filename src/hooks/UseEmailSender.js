@@ -5,7 +5,7 @@ function useEmailSender() {
   const formRef = useRef();
 
   const sendEmail = () => {
-    emailjs.sendForm('service_a0bn1ms', 'template_6fehwfa', formRef.current, 'YiYX3sMzC5_i4CTmq')
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, formRef.current, process.env.REACT_APP_EMAILJS_USER_ID)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
