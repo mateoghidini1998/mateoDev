@@ -9,7 +9,7 @@ function MainContent() {
     <div className="content">
         <AnimatedHeading/>
         <AnimatedText/>
-        <Cta className="btn" content="See My Work"/>
+        <Cta  link="https://github.com/mateoghidini1998" className="btn" content="See My Work"/>
         <IconsContainer/>
     </div>
   )
