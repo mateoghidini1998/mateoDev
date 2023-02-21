@@ -11,20 +11,74 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;
 }
+
+.contact .content .row .email-sent-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.email-sent-card .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #08fdd8;
+    font-size: 1.5em;
+    margin-right: 2px;
+    margin-top: 2px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+  }
 
 .contact .content .row .card{
     background: transparent;
     width: 262px;
     height: 196px;
-    margin-right: 15px;
+    margin: 15px;
     padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    box-shadow: 0 5px 25px rgba(50 200 150 /30%); 
     border-radius: 10px;
+}
+
+.contact .content .row .message-card{
+    background: transparent;
+    width: 280px;
+    height: 70px;
+    margin: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 5px 25px rgba(50 200 150 /30%); 
+    border-radius: 10px;
+}
+
+.contact .content .row .message-card .message-icon{
+    color: #08fdd8;
+    font-size: 1.5em;
+    text-align:center;
+    transition: transform 0.5s ease;
+}
+
+.message-title .section-title-message{
+    font-size: 1em;
+    color: #08fdd8;
+}
+
+.message-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .contact .content .row .card .contact-icon{
@@ -66,7 +120,7 @@
     margin-top:50px;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    box-shadow: 0 5px 25px rgba(50 200 150 /30%);
 }
 
 .contact-form h3{
