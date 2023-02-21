@@ -129,6 +129,14 @@
     color: #ffa500;
 }
 
+@media only screen and (max-width: 375px){
+    .about .content {
+        flex-direction: column;
+        margin-top: 170px !important;
+      }
+}
+
+
 @media only screen and (max-width: 810px) {
     #header {
       font-size: 1.5rem;
