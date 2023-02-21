@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mateoDev/static/css/main.49787fc8.css",
+    "main.js": "/mateoDev/static/js/main.acd94315.js",
+    "static/media/dev.png": "/mateoDev/static/media/dev.d67b3cfb82502c9f5d54.png",
+    "static/media/CV-Ghidini-Mateo.jpg": "/mateoDev/static/media/CV-Ghidini-Mateo.b520a8f880e09717f3b4.jpg",
+    "static/media/bulls2.png": "/mateoDev/static/media/bulls2.9f7bd21377baf7710ae0.png",
+    "static/media/headphones3.png": "/mateoDev/static/media/headphones3.fbc42e2c50a87e4e3c6a.png",
+    "static/media/calendar.png": "/mateoDev/static/media/calendar.1a033ce2e94b6eaf7528.png",
+    "static/media/sixflags.png": "/mateoDev/static/media/sixflags.36010c4bfdc6be0cd89b.png",
+    "static/media/reactExpenses.png": "/mateoDev/static/media/reactExpenses.da0b6bfd0f4730446a36.png",
+    "static/media/close.png": "/mateoDev/static/media/close.8d5c0be67537a4fdaac0.png",
+    "static/media/menu.png": "/mateoDev/static/media/menu.32a31f8f0092d1152589.png",
+    "index.html": "/mateoDev/index.html",
+    "main.49787fc8.css.map": "/mateoDev/static/css/main.49787fc8.css.map",
+    "main.acd94315.js.map": "/mateoDev/static/js/main.acd94315.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49787fc8.css",
+    "static/js/main.acd94315.js"
+  ]
+}
