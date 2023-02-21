@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mateoDev/static/css/main.49787fc8.css",
-    "main.js": "/mateoDev/static/js/main.e57ab45f.js",
+    "main.css": "/mateoDev/static/css/main.4940a067.css",
+    "main.js": "/mateoDev/static/js/main.d0da583a.js",
     "static/media/dev.png": "/mateoDev/static/media/dev.d67b3cfb82502c9f5d54.png",
     "static/media/bulls2.png": "/mateoDev/static/media/bulls2.9f7bd21377baf7710ae0.png",
     "static/media/CV-Ghidini-Mateo.jpeg": "/mateoDev/static/media/CV-Ghidini-Mateo.52ee7dcafae493d52690.jpeg",
@@ -12,11 +12,11 @@
     "static/media/close.png": "/mateoDev/static/media/close.8d5c0be67537a4fdaac0.png",
     "static/media/menu.png": "/mateoDev/static/media/menu.32a31f8f0092d1152589.png",
     "index.html": "/mateoDev/index.html",
-    "main.49787fc8.css.map": "/mateoDev/static/css/main.49787fc8.css.map",
-    "main.e57ab45f.js.map": "/mateoDev/static/js/main.e57ab45f.js.map"
+    "main.4940a067.css.map": "/mateoDev/static/css/main.4940a067.css.map",
+    "main.d0da583a.js.map": "/mateoDev/static/js/main.d0da583a.js.map"
   },
   "entrypoints": [
-    "static/css/main.49787fc8.css",
-    "static/js/main.e57ab45f.js"
+    "static/css/main.4940a067.css",
+    "static/js/main.d0da583a.js"
   ]
 }
