@@ -52,7 +52,7 @@ const Work = () => {
 
       }
   
-      const dotColors = [ "#08fdd8", "#da007a", "#f6c544", "#0e9fb7", "#000000", "#a892ee" ]
+      const dotColors = [ "#08fdd8", "#da007a", "#f6c544", "#0e9fb7", "#7f5d42", "#a892ee" ]
 
     return (
       <div className="main-container">
@@ -82,7 +82,10 @@ const Work = () => {
                 key={index}
                 className={`dot ${index === activeIndex ? 'active' : ''}`}
                 onClick={() => handleDotClick(index)}
-                style={{ backgroundColor: dotColors[index] }}
+                style={{
+                  backgroundColor: dotColors[index],
+                  boxShadow: index === activeIndex ? `0 0 5px 0 ${dotColors[index]}` : 'none'
+                }}
               ></button>
             ))}
           </div>
