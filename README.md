@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Personal Protfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This site was built using ReactJS, HTML, and CSS, and serves as a showcase of my work as a developer.
+
+The purpose of this website is to provide an overview of my skills, experience, and projects. Visitors can browse my portfolio and see examples of my work, including websites, applications, and other programming projects.
+
+In addition to showcasing my work, this website also provides information about me as a developer. Visitors can learn about my background, skills, and interests, as well as my approach to software development and my philosophy on technology.
+
+I chose to build this website using ReactJS, HTML, and CSS because I believe these technologies offer a powerful combination of flexibility, scalability, and interactivity. With ReactJS, I was able to build a responsive and dynamic user interface that enables visitors to easily navigate my portfolio and learn about my work. HTML and CSS provided me with the tools to create a visually appealing and professional-looking website that showcases my skills as a designer and developer.
+
+Overall, I am proud of this website and I hope that it provides visitors with a clear understanding of who I am as a developer and what I can offer as a collaborator or employee.
+
 
 ## Available Scripts
 
