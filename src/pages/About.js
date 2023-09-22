@@ -12,12 +12,7 @@ const About = () => {
             <div className="column col-right reveal">
                 <h2 className="content-title">Hey there! I´m Mateo Ghidini</h2>
                 <p className="paragraph-text">
-                    I'm a 24 years old student and self taught Full Stack Web Developer, passionate about functionality
-                    and Back-End. I am looking to take my first steps in a company where I can develop myself
-                    professionally. I love doing proyects and learning about different technologies every day, i´m a
-                    great coworker and a kind person to work with. I currently enrole myself into different web
-                    development courses through different platforms, and studied Tecnicatura Superior en Programación at
-                    Universidad Tecnológica Nacional (UTN) in Argentina.
+                Im a Full stack web developer with a junior advance seniority, proficient in a range of technologies including HTML, CSS, JavaScript, ReactJs, Nodejs, TypeScript, NextJS, and Laravel. With a strong foundation in web development, I enjoy bringing design concepts to life through elegant and functional code. My passion for learning and eagerness to take on new challenges have enabled me to deliver high-quality solutions for clients across a variety of industries. If you're looking for a skilled developer to help bring your ideas to life, I'd love to connect!
                 </p>
             </div>
             <div className="column col-left reveal">
