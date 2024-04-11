@@ -3,7 +3,7 @@ import './Contact.css'
 import { FiMail, FiPhone } from 'react-icons/fi'
 import { MdLocationPin } from 'react-icons/md'
 import { FaDownload } from 'react-icons/fa'
-import CV from '../assets/images/CV-Ghidini-Mateo.jpeg'
+import CV from '../assets/images/CV_Ghidini_Mateo_2024.pdf'
 import ContactCard from '../molecules/ContactCard';
 import ContactTitle from '../molecules/ContactTitle';
 import Form from '../organisms/Form';

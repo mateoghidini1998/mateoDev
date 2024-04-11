@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import './Work.css'
 import Cta from '../atoms/Cta'
-import Headphone from '../assets/images/headphones3.png'
-import Calendar from '../assets/images/calendar.png'
-import DevConnector from '../assets/images/dev.png'
-import Bulls from '../assets/images/bulls2.png'
+import Twitter from '../assets/images/twitter.png'
+import goTravel from '../assets/images/gotravel.png'
 import Expenses from '../assets/images/reactExpenses.png'
+import DevConnector from '../assets/images/dev.png'
 import SixFlags from '../assets/images/sixflags.png'
+import attractionPark from '../assets/images/attractionPark.jpg'
 import useDots from '../hooks/useDots';
 
 
-const images = [Calendar, Headphone, SixFlags, DevConnector, Bulls, Expenses];
+const images = [Twitter, DevConnector, goTravel, attractionPark, SixFlags, Expenses];
 
 const Work = () => {
     const [activeIndex, setActiveIndex] = useDots(images.length);
